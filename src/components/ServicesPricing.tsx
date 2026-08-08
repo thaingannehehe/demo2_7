@@ -245,8 +245,8 @@ function CategoryMenu({ category }: { category: ServiceCategory }) {
 
 export default function ServicesPricing() {
   return (
-    <section id="services-pricing" aria-label="Services and pricing" className="bg-[#FAF8F5] px-6 py-20 md:px-10 md:py-28 lg:px-16">
-      <div className="mx-auto max-w-[1200px]">
+    <section id="services-pricing" aria-label="Services and pricing" className="bg-[#FAF8F5] py-20 md:py-28">
+      <div className="container mx-auto px-6 sm:px-10 lg:px-16">
         <div className="max-w-[620px]">
           <span
             className="text-[10px] uppercase tracking-[0.38em] text-[#827a72]"
@@ -273,7 +273,7 @@ export default function ServicesPricing() {
             <a
               key={category.id}
               href={`#${category.id}`}
-              className="group relative block aspect-[0.78] overflow-hidden bg-[#201d1a] text-white"
+              className="group relative block aspect-[0.72] overflow-hidden bg-[#201d1a] text-white"
             >
               <img
                 src={category.image}

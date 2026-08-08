@@ -83,7 +83,7 @@ export default function Reviews() {
       aria-label="Client reviews"
       className="overflow-hidden bg-[#FAF8F5] py-16 md:py-24"
     >
-      <div className="mx-auto mb-12 max-w-[1200px] px-6 md:mb-16">
+      <div className="container mx-auto mb-12 px-6 sm:px-10 lg:px-16 md:mb-16">
         <div className="flex flex-col gap-3">
           <span
             className="text-[11px] uppercase tracking-[0.3em] text-[#7a6b5d]"

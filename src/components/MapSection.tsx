@@ -105,9 +105,9 @@ export default function MapSection() {
       ref={sectionRef}
       id="lien-he"
       aria-label="Salon location"
-      className="bg-[#FAF8F5] px-6 py-16 md:py-24"
+      className="bg-[#FAF8F5] py-16 md:py-24"
     >
-      <div className="mx-auto max-w-[1200px]">
+      <div className="container mx-auto px-6 sm:px-10 lg:px-16">
         <div className="mb-12 flex flex-col gap-3 md:mb-16">
           <span
             className="text-[11px] uppercase tracking-[0.3em] text-[#7a6b5d]"
