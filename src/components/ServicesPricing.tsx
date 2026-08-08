@@ -273,16 +273,16 @@ export default function ServicesPricing() {
             <a
               key={category.id}
               href={`#${category.id}`}
-              className="group relative block aspect-[0.72] overflow-hidden bg-[#201d1a] text-white"
+              className="group relative block aspect-[3/4] overflow-hidden bg-[#201d1a] text-white"
             >
               <img
                 src={category.image}
                 alt={category.alt}
                 loading="lazy"
                 decoding="async"
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.045]"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-black/10 transition-colors duration-500 group-hover:from-black/85" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent transition-colors duration-500 group-hover:from-black/85" />
               <div className="absolute inset-x-4 bottom-4 md:inset-x-6 md:bottom-6">
                 <span
                   className="text-[10px] tracking-[0.2em] text-white/70"
